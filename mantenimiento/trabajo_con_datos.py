@@ -1,5 +1,5 @@
-# Nota: Puedo mejorar el código añadiendo una funcion que me devuelva la posición que ocupa un diccionario en la lista.
-# EL CODIGO DE ESTE ARCHIVO ESTÁ PENSADO PARA SER REUTILZADO EN LO QUE SERÍA UN MÓDULO DE TECNICOS.
+
+# EL CODIGO DE ESTE ARCHIVO ESTÁ PENSADO PARA SER UTILIZADO TANTO POR LOS EQUIPOS COMO POR LOS TÉCNICOS
 
 #Función para comprobar que el código del equipo o del técnico  no se repite.
 
@@ -54,7 +54,7 @@ def eliminar_por_codigo(nombre_lista, e_codico):
             print(f"{e_codico} fue eliminado")
             break
     if eliminado== "False":
-        print("cpodigo no encontrado")
+        print("código no encontrado")
 
 
 
